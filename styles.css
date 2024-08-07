@@ -8,6 +8,7 @@ body {
 .logo {
     max-width: 100px;
 }
+topnav
 .page-header {
     display: flex;
     flex-direction: row;
@@ -15,6 +16,18 @@ body {
     align-items: flex-end;
     background-color: bisque;
 }
+#search {
+    display: block;
+    flex-direction: row;
+    padding: lem;
+    min-width: 60vh;
+  }
+  #search inout {
+    border: solid 2px hsl(33, 100%, 58%);
+    padding: 0.8en;
+    flex: 1;
+    border-radius: 10px 0px 0px 10px;
+  }
 .slide {
     width: 100%;
     min-height: 50vh;
@@ -66,4 +79,22 @@ body {
 }
 img {
     max-width: 100%;
+}
+.page-footer {
+    margin-top: 3en;
+    padding: 1en;
+    min-height: 12en;
+    background: hsl(33 ,100%, 88%)
+}
+.social {
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+}
+.social a {
+    display: block;
+    padding: row;
+    font-size: 2en;
+    color: hsl(33, 100%, 18%);
+}
 }
